@@ -7,26 +7,6 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-// const posts = [
-//   {
-//     title: "Documentation",
-//     description: "Find in-depth information about Next.js features and API.",
-//   },
-//   {
-//     title: "Learn",
-//     description: "Learn about Next.js in an interactive course with quizzes!",
-//   },
-//   {
-//     title: "Examples",
-//     description: "Discover and deploy boilerplate example Next.js projects.",
-//   },
-//   {
-//     title: "Deploy",
-//     description:
-//       "Instantly deploy your Next.js site to a public URL with Vercel.",
-//   },
-// ];
-
 export default function Home({ data }) {
   return (
     <div className={styles.container}>
